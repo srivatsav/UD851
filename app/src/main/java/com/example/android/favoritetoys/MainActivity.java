@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         toysTextView = (TextView) findViewById(R.id.tv_toy_names);
 
         // TODO (4) Use the static ToyBox.getToyNames method and store the names in a String array
-        List<String> toysList = ToyBox.getToyNames();
+       String[] toysList = ToyBox.getToyNames();
 
         // TODO (5) Loop through each toy and append the name to the TextView (add \n for spacing)
         for(String toy:toysList)
